@@ -36,7 +36,7 @@ header > div {
   .second-nav {
     max-width: 96rem;
     display: flex;
-    justify-content: space-around;
+  
   }
 
   .npmLogo {
@@ -109,4 +109,248 @@ header > div {
     background-color: white;
     line-height: 1.5;
     font-weight: 500;
+}
+
+.first-section {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    background-image: url("https://static.npmjs.com/attachments/ck3uwvv67mydydr74ea00ip4j-bg-stripes.png");
+}
+
+
+.center-title {
+    max-width: 48rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.first-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 1.25;
+    margin: .67em 0;
+}
+
+
+
+.block-text{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding-bottom: 150px;
+    padding-top: 100px
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt5 {
+    margin-top: 4rem;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex {
+    display: flex;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.signupcolors {
+    background: #c12127;
+    border-bottom: solid 5px #fa8717;
+    padding: 20px;
+    margin: 5px;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 40%);
+    font-family: Poppins,sans-serif;
+    font-weight: 700;
+}
+
+.learncolors {
+        margin: 5px;
+        background: #e81aa8;
+        border-bottom: solid 5px #b30ad2;
+        padding: 20px;
+        box-shadow: 0 10px 30px rgb(0 0 0 / 40%);
+        font-family: Poppins,sans-serif;
+        font-weight: 700;
+    
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.ph3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.pv5 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.animation-colored {
+    width: 100px;
+    height: 100px;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.block-second-section {
+    max-width: 32rem;
+}
+
+.npm-bg-love-oss {
+    background-image: url("https://static.npmjs.com/attachments/ck3uwg3a8731988744oecrjxu-weloveopensource-bg-800-2x.png");
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.lh-title {
+    line-height: 1.5;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.block-third-section {
+    max-width: 32rem;
+    margin-bottom: 10px;
+}
+
+.block-fourth-section {
+    max-width: 64rem;
+
+}
+
+.last-title {
+    line-height: 1.25;
+    max-width: 32rem;
+    font-family: Poppins,sans-serif;
+    font-weight: 600;
+    font-size: 2.25rem;
+    margin-bottom: 4rem;
+}
+
+.mw6 {
+    max-width: 32rem;
+}
+
+footer {
+    flex: 0 0 auto;
+    background-color: transparent;
+    color: rgba(255, 255, 255, .8);
+    font-family: 'Poppins';
+    border-color: rgba(0,0,0,.1);
+    border-top-style: solid;
+    border-top-width: 1px;
+    margin-top: 2rem;
+}
+
+
+
+.logo {
+    width: 50px;
+}
+
+.footer-subtitle  {
+    font-size: 17px;
+    letter-spacing: 1.3px;
+    color: #333333;
+    font-weight: 600;
+    font-family: 'Poppins';
+    line-height: 2;
+}
+
+.align-items-start {
+    align-items: flex-start;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.pt-1 {
+    padding-top: 1rem;
+}
+
+.pl-2 {
+    padding-left: 2rem
+}
+
+.ml-16-n {
+    margin-left: -16rem;
+}
+
+.pv1 {
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .7);
+    font-weight: 400;
+    line-height: 2;
+}
+
+.footer-list {
+    margin-left: -37px;
+}
+
+.mt-one-half {
+    margin-top: 1.5rem;
+}
+
+.cd2827bb::after {
+    content: "";
+    display: block;
+    height: 10px;
+    width: 100%;
+    background-image: linear-gradient(
+139deg
+, #fb8817, #ff4b01, #c12127, #e02aff);
+}
+
+#container {
+    overflow: hidden;
 }
