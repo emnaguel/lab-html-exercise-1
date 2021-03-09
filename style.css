@@ -182,6 +182,19 @@ header > div {
     font-weight: 700;
 }
 
+.createorg {
+    background-color: black;
+    border-bottom: solid 5px grey;
+    padding: 20px;
+    margin: 5px;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 40%);
+    font-family: Poppins,sans-serif;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    width: 240px;
+    text-align: center;
+}
+
 .learncolors {
         margin: 5px;
         background: #e81aa8;
@@ -353,4 +366,36 @@ footer {
 
 #container {
     overflow: hidden;
+}
+
+.e7070742 {
+    padding: 8px 0;
+    border-width: 10px 0 0;
+    border-top-style: solid;
+    border-image: linear-gradient(
+139deg
+, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.container-elements {
+    margin-right: 2rem;
+    margin-left: 5rem;
+    margin-bottom: 3rem;
+}
+
+.space-elements {
+    padding: 1rem;
+   
+}
+
+.red {
+    color: red
+}
+
+.bolder {
+    font-weight: 600
 }
